@@ -1,4 +1,4 @@
-import excel "/Users/andreacutrera/Desktop/Micro-Econometrics/project/stata/final/2020 Stata", sheet("Finale") firstrow
+import excel "/Desktop/Micro-Econometrics/project/stata/final/2020 Stata", sheet("Finale") firstrow
 encode states, gen(state)
 xtset state year, yearly
 
